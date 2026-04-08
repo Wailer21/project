@@ -1,0 +1,150 @@
+/* Very basic CSS (beginner level) */
+body{
+  font-family: Arial, sans-serif;
+  background: white;
+  color: #111;
+  margin: 0;
+  line-height: 1.6;
+}
+
+header, footer{
+  background: #f2f2f2;
+  padding: 15px;
+  text-align: center;
+}
+
+main{
+  padding: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
+
+nav a{
+  color: #111;
+  text-decoration: none;
+  padding: 6px 10px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+}
+
+nav a:hover{
+  background: #e6e6e6;
+}
+
+section{
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+}
+
+.page-title{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.byline{
+  text-align: center;
+  margin-top: 0;
+  color: #555;
+}
+
+.section-title{
+  margin-bottom: 6px;
+}
+
+.gallery figure{
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.gallery figcaption{
+  font-size: 14px;
+  color: #444;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Make pictures a consistent size (beginner-friendly) */
+.img-large{
+  width: auto;
+  max-width: 520px;
+  height: auto;
+  max-height: 320px;
+  display: block;
+  margin: 10px auto;
+}
+
+.img-service{
+  width: auto;
+  max-width: 520px;
+  height: auto;
+  max-height: 300px;
+  display: block;
+  margin: 10px auto;
+}
+
+.gallery img{
+  width: auto;
+  max-width: 280px;
+  height: auto;
+  max-height: 220px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td{
+  border: 1px solid #cccccc;
+  padding: 8px;
+  text-align: left;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+}
+
+select{
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+}
+
+button{
+  padding: 10px 14px;
+  background: #111;
+  color: #ffffff;
+  border: 0;
+}

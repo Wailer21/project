@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nail Studio Shop | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Flexbox for gallery only */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    
+    .gallery figure {
+      flex: 1 1 280px;
+      max-width: 300px;
+      margin: 0;
+      text-align: center;
+    }
+
+    /* Make all gallery images the same size */
+    .gallery figure img {
+      width: 280px;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>
+    Aggie's Nail Studio Shop
+  </h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Shop</a></li>
+      <li><a href="business.html">How to Order</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2 class="section-title">Featured Manicure</h2>
+    <p>Clean prep + neat shaping + glossy finish. Perfect for everyday wear.</p>
+    <img class="img-large" src="assets/images/manicure.png" alt="Manicure nails photo">
+  </section>
+
+  <!-- Nail Gallery with Flexbox -->
+  <section>
+    <h2 class="section-title">Nail Gallery</h2>
+    <p>Here are a few examples of my work.</p>
+    <div class="gallery">
+      <figure>
+        <img src="assets/images/acrylic.jpg" alt="Acrylic nails">
+        <figcaption>Acrylic set (extensions)</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/images/art.jpg" alt="Nail art">
+        <figcaption>Nail art</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/images/pedicure.png" alt="Pedicure">
+        <figcaption>Pedicure</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Shop Categories -->
+  <section>
+    <h2 class="section-title">Shop categories</h2>
+    <ul>
+      <li><strong>Press-on nail sets:</strong> short and medium sets</li>
+      <li><strong>Nail care:</strong> cuticle oil and hand cream</li>
+      <li><strong>Accessories:</strong> nail glue and basic tools</li>
+      <li><strong>Add-ons:</strong> nail art on press-ons</li>
+    </ul>
+    <p>To buy, go to the <a href="products.html">Shop</a> page.</p>
+  </section>
+
+  <!-- Promotional Video (embedded) -->
+  <section>
+    <h2>Promotional video</h2>
+    <p>A short video showing a simple nail process.</p>
+    <iframe 
+      width="560" 
+      height="315"
+      src="https://www.youtube.com/embed/0WyF54xr8Kw"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- About Business Summary -->
+  <section>
+    <h2>About the business</h2>
+    <p>Nail Studio Shop is a small e-commerce business that sells nail products. Orders are placed using an order form (email) and then confirmed by message.</p>
+    <p><strong>How to order:</strong> See the <a href="business.html">How to Order</a> page.</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Nail Studio | Email: <a href="mailto:nailstudio@example.com">nailstudio@example.com</a></p>
+</footer>
+</body>
+</html>

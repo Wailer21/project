@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | Nail Studio Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>💅 Nail Studio Shop</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Shop</a></li>
+      <li><a href="business.html">How to Order</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Shop</h2>
+  <p>Welcome to the shop. Prices are in Lesotho Maloti (LSL). Place an order using the order form below.</p>
+
+  <!-- Featured Products -->
+  <section>
+    <h2>Featured products</h2>
+
+    <div class="product-card">
+      <h3>Press-on Nail Set (Short)</h3>
+      <img class="img-service" src="assets\images\short.jpg" alt="Press-on nails set">
+      <p><strong>Price:</strong> M120</p>
+      <p>Includes 10 nails, nail file, and basic instructions.</p>
+    </div>
+
+    <div class="product-card">
+      <h3>Press-on Nail Set (Medium)</h3>
+      <img class="img-service" src="assets\images\press-on.jpg"press-on alt="Medium press-on nails">
+      <p><strong>Price:</strong> M150</p>
+      <p>Medium length set. Choose your shape (square/coffin/almond).</p>
+    </div>
+
+    <div class="product-card">
+      <h3>Cuticle Oil (10ml)</h3>
+      <img class="img-service" src="assets\images\cuticle.jpg" alt="Cuticle oil">
+      <p><strong>Price:</strong> M40</p>
+      <p>Helps keep nails and cuticles moisturized.</p>
+    </div>
+
+    <div class="product-card">
+      <h3>Hand Cream (Small)</h3>
+      <img class="img-service" src="https://placehold.co/280x200/f8e3de/b35f5a?text=Hand+Cream" alt="Hand cream">
+      <p><strong>Price:</strong> M35</p>
+      <p>Soft hands and a clean finish after nail prep.</p>
+    </div>
+  </section>
+
+  <!-- Price List Table -->
+  <section>
+    <h2>Price list</h2>
+    <p>These are example prices for a beginner e-commerce website.</p>
+    <table>
+      <thead>
+        <tr><th>Product</th><th>Price</th><th>Notes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Press-on set (Short)</td><td>M120</td><td>Ready-to-wear set + file</td></tr>
+        <tr><td>Press-on set (Medium)</td><td>M150</td><td>Choose a shape</td></tr>
+        <tr><td>Cuticle oil (10ml)</td><td>M40</td><td>Daily nail care</td></tr>
+        <tr><td>Hand cream (small)</td><td>M35</td><td>Moisturizing</td></tr>
+        <tr><td>Nail glue</td><td>M25</td><td>For press-ons</td></tr>
+        <tr><td>Nail art add-on (press-ons)</td><td>M30+</td><td>Depends on design</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Order Form -->
+  <section>
+    <h2>Order form</h2>
+    <p><strong>Note:</strong> This beginner site uses email ordering (no online payments).</p>
+
+    <form action="mailto:nailstudio@example.com" method="post" enctype="text/plain">
+      <label for="customerName">Full name</label>
+      <input id="customerName" name="Full name" type="text" required>
+
+      <label for="customerPhone">Phone / WhatsApp</label>
+      <input id="customerPhone" name="Phone / WhatsApp" type="tel" required>
+
+      <label for="product">Choose product</label>
+      <select id="product" name="Product" required>
+        <option value="">-- Select a product --</option>
+        <option>Press-on set (Short) - M120</option>
+        <option>Press-on set (Medium) - M150</option>
+        <option>Cuticle oil (10ml) - M40</option>
+        <option>Hand cream (small) - M35</option>
+        <option>Nail glue - M25</option>
+      </select>
+
+      <label for="qty">Quantity</label>
+      <input id="qty" name="Quantity" type="number" min="1" value="1" required>
+
+      <label for="delivery">Delivery or pickup</label>
+      <select id="delivery" name="Delivery option" required>
+        <option value="">-- Select an option --</option>
+        <option>Pickup (Maseru)</option>
+        <option>Delivery (fee may apply)</option>
+      </select>
+
+      <label for="address">Delivery address (if delivery)</label>
+      <textarea id="address" name="Delivery address" placeholder="Area, street, and landmark..."></textarea>
+
+      <label for="orderNotes">Notes (shape, color, nail art)</label>
+      <textarea id="orderNotes" name="Notes" placeholder="Example: almond shape, pink color, simple art"></textarea>
+
+      <button type="submit">Send order</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>What affects the price?</h2>
+    <ul>
+      <li>Press-on length (short/medium)</li>
+      <li>Shape (square, coffin, almond, etc.)</li>
+      <li>Design difficulty (art, gems, ombré)</li>
+      <li>Delivery fee (depends on location)</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Nail Studio Shop</p>
+</footer>
+</body>
+</html>
